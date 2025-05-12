@@ -2,7 +2,7 @@
 
 /* Глобальный отступ по бокам через :root переменную */
 :root {
-  --horizontal-offset: 620px;
+  --horizontal-offset: 500px;
 }
 
 body {
@@ -193,12 +193,13 @@ background-color: #f5f5f5;
 .promo-footer {
   text-align: center;
   padding: 20px 0;
-  border-top: 1px solid #eee;
+background-color: #232323;
 }
 
 .promo-footer p {
   font-size: 1.2rem;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .btn-primary {

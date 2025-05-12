@@ -33,7 +33,9 @@ const CryptoArbitragePromo = () => (
       <div className="access-box">
         <h3>Успей попасть в команду первых 100 человек!</h3>
         <p>Следующий набор будет не скоро — не упусти шанс начать зарабатывать уже сейчас.</p>
-        <button className="btn-telegram">Свяжись с менеджером в Telegram</button>
+        <button className="btn-telegram"
+        onClick={() => window.location.href = "https://t.me/cryptohunter2517"}
+        >Свяжись с менеджером в Telegram</button>
       </div>
       <div className="access-note">
         <div className="note">
@@ -66,7 +68,9 @@ const CryptoArbitragePromo = () => (
     {/* Bottom CTA */}
     <div className="promo-footer">
       <p>Готов начать?</p>
-      <button className="btn-primary">Получить доступ сейчас</button>
+      <button className="btn-primary"
+       onClick={() => window.location.href = "https://t.me/cryptohunter2517"}
+       >Получить доступ сейчас</button>
     </div>
   </div>
 );
