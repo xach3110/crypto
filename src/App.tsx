@@ -35,7 +35,7 @@ const CryptoArbitragePromo = () => (
         <p>Следующий набор будет не скоро — не упусти шанс начать зарабатывать уже сейчас.</p>
         <button className="btn-telegram"
         onClick={() => window.location.href = "https://t.me/cryptohunter2517"}
-        >Свяжись с менеджером в Telegram</button>
+        >Свяжись с менеджером в Telegram!</button>
       </div>
       <div className="access-note">
         <div className="note">
