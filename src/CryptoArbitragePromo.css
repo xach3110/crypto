@@ -219,16 +219,31 @@ background-color: #232323;
 
 /* Адаптив */
 @media (max-width: 480px) {
+  :root {
+    --horizontal-offset: 20px;
+  }
+
   .promo-title {
     font-size: 1.8rem;
+    text-align: center;
   }
 
   .promo-subtitle {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .promo-description {
     font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .promo-content {
+    gap: 16px;
+  }
+
+  .promo-list {
+    padding-left: 20px;
   }
 
   .promo-list-title {
@@ -240,17 +255,19 @@ background-color: #232323;
   }
 
   .promo-screenshot {
-    padding: 10px 0;
+    padding: 0;
   }
 
   .promo-access {
-    margin-top: -100px;
+    margin-top: -80px;
     margin-left: 10px;
     margin-right: 10px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .access-box {
-    padding: 15px;
+    padding: 16px;
   }
 
   .access-box h3 {
@@ -269,13 +286,19 @@ background-color: #232323;
   }
 
   .note {
-    padding: 15px;
+    padding: 16px;
     font-size: 0.9rem;
   }
 
   .label,
   .text {
     font-size: 0.95rem;
+  }
+
+  .promo-faq {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 16px;
   }
 
   .faq-item h4 {
