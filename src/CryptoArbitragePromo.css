@@ -218,19 +218,75 @@ background-color: #232323;
 }
 
 /* Адаптив */
-@media (max-width: 800px) {
-  body {
-    padding: 0 40px;
+@media (max-width: 480px) {
+  .promo-title {
+    font-size: 1.8rem;
   }
-}
 
-@media (max-width: 600px) {
-  body {
-    padding: 0 24px;
+  .promo-subtitle {
+    font-size: 1.2rem;
   }
-  .promo-content,
-  .promo-access,
-  .promo-faq {
-    flex-direction: column;
+
+  .promo-description {
+    font-size: 0.95rem;
+  }
+
+  .promo-list-title {
+    font-size: 1.3rem;
+  }
+
+  .promo-features {
+    font-size: 0.95rem;
+  }
+
+  .promo-screenshot {
+    padding: 10px 0;
+  }
+
+  .promo-access {
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .access-box {
+    padding: 15px;
+  }
+
+  .access-box h3 {
+    font-size: 1.1rem;
+  }
+
+  .access-box p {
+    font-size: 0.95rem;
+  }
+
+  .btn-telegram,
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .note {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .label,
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .faq-item h4 {
+    font-size: 1rem;
+  }
+
+  .faq-item p {
+    font-size: 0.9rem;
+  }
+
+  .promo-footer p {
+    font-size: 1rem;
   }
 }
