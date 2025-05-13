@@ -39,8 +39,10 @@ const CryptoArbitragePromo = () => (
       </div>
       <div className="access-note">
         <div className="note">
-          <p className="label">НЕ ПРОПУСТИ</p>
-          <p className="text">Я не расдаю эту схему массово</p>
+          <p className="label">Максим 35 лет </p>
+          <p className="text">Без опыта торговли</p>
+          <p className="text">Начальный депозит 800$</p>
+          <p className="text">Спустя неделю 1030$</p>
         </div>
       </div>
     </div>
